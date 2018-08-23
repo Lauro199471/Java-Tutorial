@@ -1,0 +1,27 @@
+// One Way Client
+
+package main;
+
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.net.Socket;
+
+public class SocClient 
+{
+
+	public static void main(String[] args) throws Exception 
+	{
+		String ip = "localhost";
+		int port = 1020;
+		String data = "Lauro Cabral";
+		
+		@SuppressWarnings("resource")
+		Socket soc_client = new Socket(ip,port);
+		OutputStreamWriter os = new OutputStreamWriter(soc_client.getOutputStream());
+		PrintWriter out = new PrintWriter(os);
+		os.write(data);
+		os.flush();
+		os.close();
+	}
+
+}

@@ -1,0 +1,13 @@
+package main;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		System.out.print("Hello World");
+		
+		// Thread 1
+		myThread thread1 = new myThread("");
+
+	}
+
+}

@@ -1,0 +1,14 @@
+// One Way Client
+
+package main;
+
+public class SocClient 
+{
+
+	public static void main(String[] args) 
+	{
+		String ip = "localhost";
+
+	}
+
+}

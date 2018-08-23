@@ -1,0 +1,21 @@
+// One Way Client
+
+package main;
+
+import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+public class SocClient 
+{
+
+	public static void main(String[] args) throws Exception 
+	{
+		String ip = "localhost";
+		int port = 9999;
+		
+		Socket socet_client = new Socket(ip,port);
+
+	}
+
+}

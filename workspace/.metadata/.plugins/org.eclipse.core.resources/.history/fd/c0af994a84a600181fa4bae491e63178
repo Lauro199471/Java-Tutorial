@@ -1,0 +1,17 @@
+package main;
+
+import java.net.ServerSocket;
+
+public class SocSever 
+{
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Server is started");
+		ServerSocket ss = new ServerSocket(9999);
+		
+		System.out.println("");
+
+	}
+
+}

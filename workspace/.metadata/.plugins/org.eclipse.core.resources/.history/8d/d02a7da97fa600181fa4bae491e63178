@@ -1,0 +1,22 @@
+package main;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		System.out.print("Hello World");
+		
+		// Thread 1
+		myThread thread1 = new myThread("A");
+		
+		// Thread 2
+		myThread thread2 = new myThread("B");
+		
+		// Thread 3
+		myThread thread3 = new myThread("C");
+		
+		// Start Thread
+		thread1.start();
+
+	}
+
+}

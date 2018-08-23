@@ -1,0 +1,12 @@
+// One Way Client
+
+package main;
+
+public class SocClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

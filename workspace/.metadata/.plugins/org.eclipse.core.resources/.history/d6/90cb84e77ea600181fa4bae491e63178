@@ -1,0 +1,7 @@
+package main;
+
+public class myThread extends Thread
+{
+	String name;
+	int time;
+}
